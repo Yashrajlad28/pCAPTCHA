@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.navbar img{
+    height:290px;
+    width: 450px;
+    border-radius: 1%;
+
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px;
+    width: 85%;
+    border: none;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:disabled {
+    background: gray;
+}
+.timer {
+    font-size: 14px;
+    color: red;
+    margin-top: 5px;
+}
+#otpSection {
+    visibility: hidden;
+    height: 0;
+}
